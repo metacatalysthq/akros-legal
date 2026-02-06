@@ -32,11 +32,12 @@ export function Footer() {
           <div className="lg:col-span-1">
             <Link href="/" className="inline-block mb-6">
               <Image
-                src="/images/screenshot-2026-01-09-171359-removebg-preview.png"
+                src="/images/logo.png"
                 alt="Akros Legal Logo"
-                width={140}
-                height={60}
-                className="h-14 w-auto"
+                width={160}
+                height={70}
+                className="h-14 lg:h-16 w-auto"
+                priority
               />
             </Link>
             <p className="text-muted-foreground text-sm leading-relaxed mb-6">
